@@ -1,0 +1,35 @@
+.contenedor-perfil{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    background-color: papayawhip;
+    margin: 10px 10px 30px;
+    justify-content: center;
+}
+  
+.imagen-perfil{
+    height: 100%;
+    width: auto;
+    justify-content: center;
+    margin: 10px 10px 30px;
+
+}
+  
+.contenedor-texto-perfil{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+  
+.nombre-perfil{
+    font-size: 1 rem;
+}
+  
+.cargo-perfil{
+    font-size: 1 rem;
+}
+  
+.texto-perfil{
+    font-size: 15px;
+}

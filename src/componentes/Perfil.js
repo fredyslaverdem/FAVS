@@ -9,10 +9,10 @@ function Perfil(props){
             alt='Foto de desarrollador' />
         <div className='contenedor-texto-perfil'>
             <p className='nombre-perfil'>
-               <strong>{props.nombre}</strong> en {props.pais}
+               <strong>{props.nombre}</strong> del direcctor {props.direcctor}
             </p>
         <p className='cargo-perfil'>
-            {props.cargo} en <strong>{props.empresa}</strong>
+            {props.cargo} asignado <strong>{props.empresa}</strong>
         </p>
         <p className='texto-perfil'>"{props.perfil}" </p>
         </div>
