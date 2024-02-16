@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
      <div class ='contenedor-principal'>
-      <h1>Mis desarrolladores favoritos son</h1>
+      <h1> MIs peliculas favoritas son</h1>
       <Perfil 
         nombre='Brais Moure'
         pais='España'
@@ -14,6 +14,14 @@ function App() {
         cargo='Ingeniero de Software'
         empresa='MoureDev'
         perfil='Es un Youtuber español, es el fundador de la empresa de desarrollo de software MoureDev'
+      />
+      <Perfil
+        nombre2='Brais Moure'
+        pais2='España'
+        imagen2='brais'
+        cargo2='Ingeniero de Software'
+        empresa2='MoureDev'
+        perfil2='Es un Youtuber español, es el fundador de la empresa de desarrollo de software MoureDev'
       />
      </div>
     </div>

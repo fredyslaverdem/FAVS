@@ -1,5 +1,5 @@
 import React from 'react';
-import '../estilos/Perfil.css';
+import '../estilos/perfil.css';
 
 function Perfil(props){
     return(
